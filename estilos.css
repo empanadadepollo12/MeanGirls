@@ -1,0 +1,111 @@
+/*Decalaramos la fuente */
+@font-face{
+  font-family:"Beauty and Elegant Sans";
+  src :url("fuentes/Beauty and Elegant Sans.ttf");
+}
+
+@font-face{  
+  font-family:LilitaOne;
+  src :url("fuentes/LilitaOne.ttf");
+}
+
+@font-face{
+ font-family:PER_____;
+ src :url("fuentes/PER_____.ttf");
+}
+  
+body{
+	 background-color:white;
+     background-image:url("imagenes/fondo.png");
+     text-align:center;
+}
+
+h1{
+	 color:#f54281;
+	 font-size:80px; /* tamaño de fuente */
+     text-align: center;
+	 margin-top:0px; /* margen superior */
+	 margin-bottom:20px;
+	 border-style:ridge;
+	 border-width:12;
+	 border-radius:20px;
+	 border-color :#f54281;
+	 font-family :Madina; /* usamos la fuente declarada */
+}
+
+h2{
+     color:#f2276e;
+	 margin-left:10%; 
+	 margin-right:10%; 
+	 margin-bottom:40px; 
+	 border-bottom-style:solid;
+     border-bottom-width:2px;	
+}
+
+h3{
+	 color:black;
+	 text-align:left;
+	 font-size:25px; /* tamaño de fuente */
+	 margin-left:10%; /* margen izquierdo */
+	 margin-right:10%; 
+	 margin-top:20px; /* margen superior */
+	 line-height:35px; 
+	
+}
+p{
+	 font-family:PER_____;
+	 color:black;
+	 text-align:left;
+	 font-size:25px; /* tamaño de fuente */
+	 margin-left:10%; /* margen izquierdo */
+	 margin-right:10%; /* margen derecho */
+	 margin-top:20px; /* margen superior */
+	 line-height:35px; /* interlineado */
+	
+}
+a:link{
+	 color:#f4b4b4;
+	 font-size:20px;
+	 font-family: LilitaOne;
+     text-decoration : none;
+}
+a:visited{
+     color: #f2276e;
+     background-color:#f5decb;
+}	 
+img{
+     margin:0;
+     margin:auto;
+     border-radius:10px;
+    
+}
+
+.lista{
+	 font-family:PER_____;
+	 text-align: left;
+	 margin-left:10%; /* margen izquierdo */
+	 font-size: 20px;
+}
+.galeria{
+     display: inline;	
+	 margin-left:2%; 
+	 margin-bottom:2%;
+	 border-radius:10px;
+     box-shadow:15px 15px 5px#fcd7e8;
+	
+}
+.table{
+	 border-style:none;
+	 text-align: center;
+	 margin:Auto;
+}
+.td{
+     border-style:none;
+	 text-align: center;
+	 border-style:ridge;
+	 border-width:1xp;
+	 border-color :pink;
+	 border-bottom-style:solid;
+     border-bottom-width:2px;	
+}
+
